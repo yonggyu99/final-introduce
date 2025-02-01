@@ -63,6 +63,14 @@ body {
     border-radius: 50%;
 }
 
+.additional-pic {
+    width: 300px;
+    height: 440px;
+    border-radius: 10%; /* 원형 또는 사각형 설정 */
+    margin-left: 20px; /* 메인 이미지와 간격 추가 */
+    transition: opacity 0.5s ease-in-out; /* 부드러운 전환 효과 */
+}
+
 .text-container {
     width : auto;
     text-align: left;
